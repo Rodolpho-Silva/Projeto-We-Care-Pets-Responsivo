@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
+header {
+    margin: 38px 596px 0 76px;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header-link {
+
+    line-height: 29px;
+    color: #989D9C;
+    margin-right: 35px;
+}
+
+.login-button {
+    background: #665AE1;
+    border-radius: 20.5px;
+    line-height: 29px;
+    color: #FFFFFF;
+    height: 41px;
+    width: 130px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+main {
+    margin: 217px 0 183px 125px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo-cel {
+    display: none;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.explore-button {
+    background: #ADFF00;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width: 1531px) {
+    header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+
+
+    main {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    .logo {
+        display:none;
+    }
+
+    .logo-cel {
+        display:block;
+        margin: 216px 22px 24px 22px;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        color: #515151;
+        margin-bottom: 7px;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        color: #515151;
+        margin-bottom: 17px;
+    }
+
+    p {
+        display: none;
+    }
+
+}
